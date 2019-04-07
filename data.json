@@ -1,0 +1,43 @@
+{"projects": [
+  {"id": 0,
+   "project_name": "Random Quote Generator",
+   "description": "A program that displays a randomly selected quote each time the user clicks a button.",
+   "technologies": "JavaScript",
+   "live-link": "",
+   "github_link": "https://github.com/aMikeHardy/Random-Quote-Generator.git",
+   "image_urls": ["/static/images/proj1_square.jpg", "/static/images/proj1_land.jpg"]
+ },
+ {"id": 1,
+  "project_name": "Pagination",
+  "description": "Enhances the usability of a web page that contains a long list by employing JavaScript to dynamically divide the list into pages.",
+  "technologies": "JavaScript",
+  "live-link": "",
+  "github_link": "https://github.com/aMikeHardy/Treehouse-Project-2.git",
+  "image_urls": ["/static/images/proj2_square.jpg", "/static/images/proj2_land.jpg"]
+},
+  {"id": 2,
+   "project_name": "Form Validation",
+   "description": "Enhances a form so that it’s engaging, interactive, and easy to use",
+   "technologies": "JavaScript",
+   "live-link": "",
+   "github_link": "https://github.com/aMikeHardy/Treehouse-Project-3.git",
+   "image_urls": ["/static/images/proj3_square.jpg", "/static/images/proj3_land.jpg"]
+  },
+  {"id": 3,
+   "project_name": "Tic-Tac-Toe",
+   "description": "A fun two-person Tic-Tac-Toe game.",
+   "technologies": "Object-Oriented  JavaScript",
+   "live-link": "",
+   "github_link": "https://github.com/aMikeHardy/Treehouse-Project-4.git",
+   "image_urls": ["/static/images/proj4_square.jpg", "/static/images/proj4_land.jpg"]
+  },
+  {"id": 4,
+   "project_name": "Public API Request",
+   "description": "An employee directory created with a third-party API ",
+   "technologies": "JavaScript, API",
+   "live-link": "",
+   "github_link": "https://github.com/aMikeHardy/Public-API-Request.git",
+   "image_urls": ["/static/images/proj5_square.jpg", "/static/images/proj5_land.jpg"]
+  }
+
+]}

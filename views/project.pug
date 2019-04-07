@@ -1,0 +1,28 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1= data[id].project_name
+
+        p.lead.text-light= data[id].description
+
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+
+        ul
+          li HTML
+          li CSS
+          li JavaScript
+
+        a.button.expanded(href='') Live Demo
+        a.button.expanded(href= data[id].github_link) GitHub Repo
+
+    img.image(src= data[id].image_urls[1])
+    //- img.image(src='https://placehold.it/1200x550')
+    //- img.image(src='https://placehold.it/1200x550')
