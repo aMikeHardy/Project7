@@ -11,9 +11,7 @@ app.use('/static', express.static('public'));
 //set view engine to pug
 app.set('view engine', 'pug');
 
-
-
-//TESTING EXPRESS CONNECTIVITY
+//Home route
 app.get('/', (req, res) =>{
   res.locals.data = data.projects;
   res.render('index');
@@ -33,16 +31,9 @@ app.get('/about', (req, res) =>{
   res.render('about');
 });
 
-//error handler
-// app.use((req, res, next) => {
-//   const err = new Error('Something went wrong...');
-//   err.status = 500;
-//   next(err);
-// });
-
+//Error Handler
 app.use((req, res, next) => {
   const err = new Error('Not Found');
-  //err.status = 404;
   next(err);
 });
 
@@ -50,6 +41,7 @@ app.use((err, req, res, next) => {
   res.locals.error = err;
   err.message = "Something Went Wrong";
   err.status = 404;
+  console.log('There was an error. Page not found.')
   res.render('error', err);
 });
 
